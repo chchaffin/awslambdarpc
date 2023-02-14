@@ -1,7 +1,6 @@
 module github.com/chchaffin/awslambdarpc
 
-replace ./github.com/blmayer/awslambdarpc => ./github.com/chchaffin/awslambdarpc
-
+replace github.com/blmayer/awslambdarpc => ./github.com/chchaffin/awslambdarpc
 
 go 1.19
 
