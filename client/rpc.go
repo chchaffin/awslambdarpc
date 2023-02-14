@@ -5,6 +5,7 @@ package client
 import (
 	"fmt"
 	"net/rpc"
+	"time"
 
 	"github.com/aws/aws-lambda-go/lambda/messages"
 )
@@ -18,7 +19,7 @@ import (
 func Invoke(addr string, data []byte) ([]byte, error) {
 	request := messages.InvokeRequest{
 		Deadline: messages.InvokeRequest_Timestamp{
-			Seconds: 500,
+			Seconds: time.Now().Unix() + 1000,
 		},
 		Payload: data,
 	}
