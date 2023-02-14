@@ -1,13 +1,13 @@
 # awslambdarpc
 
-[![Build Status](https://travis-ci.org/blmayer/awslambdarpc.svg?branch=master)](https://travis-ci.org/blmayer/awslambdarpc)
-[![Go Reference](https://pkg.go.dev/badge/github.com/blmayer/awslambdarpc.svg)](https://pkg.go.dev/github.com/blmayer/awslambdarpc)
+[![Build Status](https://travis-ci.org/chchaffin/awslambdarpc.svg?branch=master)](https://travis-ci.org/chchaffin/awslambdarpc)
+[![Go Reference](https://pkg.go.dev/badge/github.com/chchaffin/awslambdarpc.svg)](https://pkg.go.dev/github.com/chchaffin/awslambdarpc)
 
 > Small utility to make RPC requests to a locally running AWS Lambda, for development purposes.
 
 ## Installing
 
-Run `go get github.com/blmayer/awslambdarpc`.
+Run `go get github.com/chchaffin/awslambdarpc`.
 
 ## Using
 

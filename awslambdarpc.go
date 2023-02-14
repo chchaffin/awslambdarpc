@@ -34,7 +34,7 @@ package main
 import (
 	"os"
 
-	"github.com/blmayer/awslambdarpc/client"
+	"github.com/chchaffin/awslambdarpc/client"
 )
 
 const help = `awslambdarpc is an utility to make requests to your local AWS Lambda

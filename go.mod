@@ -1,4 +1,4 @@
-module github.com/blmayer/awslambdarpc
+module github.com/chchaffin/awslambdarpc
 
 go 1.14
 
