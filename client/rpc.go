@@ -16,7 +16,12 @@ import (
 // If the lambda returned an error then this function will return
 // the error message in the error interface
 func Invoke(addr string, data []byte) ([]byte, error) {
-	request := messages.InvokeRequest{Payload: data}
+	request := messages.InvokeRequest{
+		Deadline: messages.InvokeRequest_Timestamp{
+			Seconds: 500,
+		},
+		Payload: data,
+	}
 	client, err := rpc.Dial("tcp", addr)
 	if err != nil {
 		return nil, err
